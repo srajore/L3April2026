@@ -15,8 +15,8 @@ async def main():
         
         # Call the "greet" tool with the name "Alice"
         result = await client.call_tool(
-            "greet",
-            {"name": "Sharad"}
+            "add",
+            {"a": 5, "b": 3}
         )
     
         print("Result:", result)
